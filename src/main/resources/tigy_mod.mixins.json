@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "com.tigy.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ServerPlayerEntityMixin",
+    "PlayerInventoryMixin",
+    "ScreenHandlerMixin",
+    "RecipeFinderMixin",
+    "DecoratedPotBlockMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
