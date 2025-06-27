@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "tigy_id",
+  "id": "town_of_cecil",
   "version": "${version}",
-  "name": "Tigy Mod",
-  "description": "This is a test Mod of Tigy",
+  "name": "Town of Cecil",
+  "description": "Mod for Town of Cecil",
   "authors": [
     "Tigy"
   ],
@@ -16,11 +16,11 @@
   "environment": "server",
   "entrypoints": {
     "main": [
-      "com.tigy.TigyMod"
+      "com.tigy.TownOfCecil"
     ]
   },
   "mixins": [
-    "tigy_mod.mixins.json"
+    "town_of_cecil.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.16.10",

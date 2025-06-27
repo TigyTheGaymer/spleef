@@ -1,4 +1,4 @@
-# Fabric Example Mod
+# Town of Cecil
 
 ## Setup
 
