@@ -56,7 +56,7 @@ public class Spleef implements ModInitializer {
                                     .then(CommandManager.literal("corner2")
                                             .executes(ctx -> {
                                                 corner2 = ctx.getSource().getPlayer().getBlockPos();
-                                                ctx.getSource().sendFeedback(() -> Text.literal("Corner 1: " + corner2.toString()), false);
+                                                ctx.getSource().sendFeedback(() -> Text.literal("Corner 2: " + corner2.toString()), false);
                                                 buildArena(ctx.getSource().getWorld(), corner1, corner2);
                                                 return 1;
                                             })
