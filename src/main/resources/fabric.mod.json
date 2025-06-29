@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "town_of_cecil",
+  "id": "spleef",
   "version": "${version}",
-  "name": "Town of Cecil",
-  "description": "Mod for Town of Cecil",
+  "name": "Spleef",
+  "description": "Mod for Spleef",
   "authors": [
     "Tigy"
   ],
@@ -16,11 +16,11 @@
   "environment": "server",
   "entrypoints": {
     "main": [
-      "com.tigy.TownOfCecil"
+      "com.tigy.Spleef"
     ]
   },
   "mixins": [
-    "town_of_cecil.mixins.json"
+    "spleef.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.16.10",

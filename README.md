@@ -1,4 +1,4 @@
-# Town of Cecil
+# Spleef
 
 ## Setup
 
